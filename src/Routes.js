@@ -13,6 +13,7 @@ import Lottie from './pages/Lottie'
 import Chat from './pages/Chat'
 import Camera from './pages/Camera'
 import Maps from './pages/Maps'
+import VideoPlayer from './pages/VideoPlayer'
 
 const Drawer = createDrawerNavigator()
 
@@ -28,6 +29,7 @@ export default function Routes() {
         <Drawer.Screen name='SVG' component={Svg} />
         <Drawer.Screen name='Calendars' component={CalendarsStack} />
         <Drawer.Screen name='Chat' component={Chat} />
+        <Drawer.Screen name='Video' component={VideoPlayer} />
         <Drawer.Screen name='Camera' component={Camera} />
         <Drawer.Screen name='Maps' component={Maps} />
         <Drawer.Screen name='Lottie' component={Lottie} />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 
-import Splash from '../img/splash.svg'
+import Splash from '../img/svg/splash.svg'
 
 const Home = () => {
   return (
