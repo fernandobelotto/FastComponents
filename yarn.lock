@@ -5980,6 +5980,13 @@ react-native-calendars@^1.265.0:
     prop-types "^15.5.10"
     xdate "^0.8.0"
 
+react-native-camera@^3.24.1:
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/react-native-camera/-/react-native-camera-3.24.1.tgz#e5ddbb81a88c634cf220b039da739427e16a1d48"
+  integrity sha512-D6X4WDe6mptKwH2/0dv42NgcTpT5Wq6jHyQpmFlh4pEy8OtBmgeYg5HXPmvc0SEtXj10MG+5WQz2oCoEkITs4A==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-native-collapsible@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/react-native-collapsible/-/react-native-collapsible-1.5.2.tgz#544616dc04a71870508dc707049544a805402993"
@@ -6059,7 +6066,7 @@ react-native-paper@^3.10.1:
     color "^3.1.2"
     react-native-safe-area-view "^0.14.9"
 
-"react-native-parsed-text@github:EvanBacon/react-native-parsed-text":
+react-native-parsed-text@EvanBacon/react-native-parsed-text:
   version "0.0.22"
   resolved "https://codeload.github.com/EvanBacon/react-native-parsed-text/tar.gz/c909f64ee437796fd1b047edd73146fc89edb796"
   dependencies:

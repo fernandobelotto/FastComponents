@@ -11,6 +11,7 @@ import ReactNativePaper from './pages/ReactNativePaper'
 import DeckSwiper from './pages/DeckSwiper'
 import Lottie from './pages/Lottie'
 import Chat from './pages/Chat'
+import Camera from './pages/Camera'
 
 const Drawer = createDrawerNavigator()
 
@@ -26,6 +27,7 @@ export default function Routes () {
         <Drawer.Screen name='SVG' component={Svg} />
         <Drawer.Screen name='Calendars' component={CalendarsStack} />
         <Drawer.Screen name='Chat' component={Chat} />
+        <Drawer.Screen name='Camera' component={Camera} />
         <Drawer.Screen name='Lottie' component={Lottie} />
       </Drawer.Navigator>
     </NavigationContainer>
