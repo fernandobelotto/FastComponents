@@ -12,10 +12,11 @@ import DeckSwiper from './pages/DeckSwiper'
 import Lottie from './pages/Lottie'
 import Chat from './pages/Chat'
 import Camera from './pages/Camera'
+import Maps from './pages/Maps'
 
 const Drawer = createDrawerNavigator()
 
-export default function Routes () {
+export default function Routes() {
   return (
     <NavigationContainer>
       <Drawer.Navigator drawerStyle={{ width: '60%' }}>
@@ -28,6 +29,7 @@ export default function Routes () {
         <Drawer.Screen name='Calendars' component={CalendarsStack} />
         <Drawer.Screen name='Chat' component={Chat} />
         <Drawer.Screen name='Camera' component={Camera} />
+        <Drawer.Screen name='Maps' component={Maps} />
         <Drawer.Screen name='Lottie' component={Lottie} />
       </Drawer.Navigator>
     </NavigationContainer>
