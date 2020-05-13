@@ -16,10 +16,11 @@ import Maps from './pages/Maps'
 import MyImagePicker from './pages/MyImagePicker'
 import VideoPlayer from './pages/VideoPlayer'
 import LightBox from './pages/LightBox'
+import CarouselExample from './pages/CarouselExample'
 
 const Drawer = createDrawerNavigator()
 
-export default function Routes() {
+export default function Routes () {
   return (
     <NavigationContainer>
       <Drawer.Navigator drawerStyle={{ width: '60%' }}>
@@ -37,6 +38,7 @@ export default function Routes() {
         <Drawer.Screen name='LightBox' component={LightBox} />
         <Drawer.Screen name='Lottie' component={Lottie} />
         <Drawer.Screen name='ImagePicker' component={MyImagePicker} />
+        <Drawer.Screen name='Carousel' component={CarouselExample} />
       </Drawer.Navigator>
     </NavigationContainer>
   )
